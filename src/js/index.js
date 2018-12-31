@@ -14,7 +14,7 @@ const quotes = [
 
 var now = DateTime.local()
 
-var target = DateTime.fromISO("2020-01-01T00:00:01")
+var target = DateTime.fromISO((now.year+1)+"-01-01T00:00:01")
 
 var interval = Interval.fromDateTimes(now, target)
 
