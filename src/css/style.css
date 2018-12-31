@@ -1,3 +1,24 @@
 html, body {
-  background-color:#252525;
+  background-color:#060606;
+  overflow: hidden;
+}
+
+.e-font {
+  font-family: 'Cabin Sketch', 'Courier New', Courier, monospace !important;
+}
+
+.e-color-light {
+  color:#f0f0f0 !important;
+}
+
+.e-color-red {
+  color:#f02525 !important;
+}
+
+.e-text-big {
+  font-size: 5rem !important;
+}
+
+.e-text-medium {
+  font-size: 2rem !important;
 }

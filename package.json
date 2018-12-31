@@ -25,5 +25,8 @@
     "build": "node_modules/.bin/webpack --mode production --env production",
     "build:dev": "node_modules/.bin/webpack --mode development --env development",
     "serve": "node_modules/.bin/webpack-dev-server --hot --mode development --env development"
+  },
+  "dependencies": {
+    "luxon": "^1.9.0"
   }
 }
