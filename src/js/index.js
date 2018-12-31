@@ -32,7 +32,7 @@ var refreshCountdown = setInterval(function(){
 
     counter++
 
-    if (counter == 10) {
+    if (counter == 20) {
         quoteDOM.innerText = quotes[Math.floor(Math.random()*quotes.length)]
         counter = 0
     }
